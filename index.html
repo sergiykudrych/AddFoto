@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/icon-top.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+  <title>AddFoto</title>
+
+</head>
+
+<body>
+  <div id="wrapper" class="wrapper">
+    <header id="header" class="header lock-padding">
+  <div class="header__container">
+    <a href="index.html" class="header__logo logo">
+      <img src="img/logo.png" alt="Logo AddFoto" class="logo__img">
+    </a>
+    <div class="header__menu menu">
+      <nav class="menu__body">
+        <ul class="menu__list">
+          <li class="menu__item"><a data-goto=".main" href="#" class="menu__link goto">Портфолио</a></li>
+          <li class="menu__item"><a data-goto=".work" href="#" class="menu__link goto">Виды работ</a></li>
+          <li class="menu__item"><a data-goto=".stagework" href="#" class="menu__link goto">О фотостудии</a></li>
+          <li class="menu__item"><a data-goto=".price" href="#" class="menu__link goto">Услуги и цены</a></li>
+          <li class="menu__item"><a data-goto=".map" href="#" class="menu__link goto">Контакты</a></li>
+        </ul>
+      </nav>
+
+      <div class="menu__icon">
+        <span></span>
+      </div>
+    </div>
+    <div class="header__phone phone">
+      <a href="tel:+38068444231" class="phone__button ">Обратный звонок</a>
+      <a href="tel:+38068444231" class="phone__number">+38 (068) 44 42 31</a>
+      <a href="tel:+38068444231" class="phone__number-phone"></a>
+    </div>
+  </div>
+</header>
+    <main class="page">
+      <section class="page__main main">
+        <div class="main__container">
+
+          <h1 class="main__title _anim-items _anim-no-hide">Профессиональная <br> фотосессия в студии</h1>
+          <h2 class="main__subtitle _anim-items _anim-no-hide">Наша фотостудия позволит <br> исполнить ваши мечты</h2>
+          <p class="main__text _anim-items _anim-no-hide">Фотографии стали неотъемлемой частью нашей жизни. Это теперь
+            не просто памятные снимки в
+            альбомах, ныне фото становиться способом понравиться окружающим, получить восхищение, заявить о себе всему
+            миру. Выбор правильной фотостудии занимает далеко не последнее место в получение фотографий. И мы с
+            точностью заявляем, что нашей фотостудией вы останетесь довольны и еще не раз захотите возвращаться к нам.
+            яя</p>
+          <a href="#popup" class="main__button btn popup-link _anim-items _anim-no-hide">Получить консультацию</a>
+        </div>
+      </section>
+      <section class="page__work work">
+        <div class="work__title title _anim-items _anim-no-hide">Наші роботи</div>
+        <div class="swiper mySwiper work__swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide work__slide"><img class="swiper-img" src="img/swiper1.png" alt="слайд 1"></div>
+            <div class="swiper-slide work__slide"><img class="swiper-img" src="img/swiper2.png" alt="слайд 2"></div>
+            <div class="swiper-slide work__slide"><img class="swiper-img" src="img/swiper3.png" alt="слайд 3"></div>
+            <div class="swiper-slide work__slide"><img class="swiper-img" src="img/swiper1.png" alt="слайд 4"></div>
+            <div class="swiper-slide work__slide"><img class="swiper-img" src="img/swiper2.png" alt="слайд 5"></div>
+            <div class="swiper-slide work__slide"><img class="swiper-img" src="img/swiper3.png" alt="слайд 6"></div>
+          </div>
+          <div class="swiper-button-next  work-next"></div>
+          <div class="swiper-button-prev  work-prev"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+      <section class="page__location location ">
+        <h2 class="location__title title _anim-items _anim-no-hide">Наші локації</h2>
+        <div class="location__container">
+          <div class="swiper mySwiper2 location-swiper _anim-items _anim-no-hide">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="swiper-img" src="img/location1.png" alt="Локація 1"></div>
+              <div class="swiper-slide"><img class="swiper-img" src="img/location5.png" alt="Локація 2"></div>
+              <div class="swiper-slide"><img class="swiper-img" src="img/location3.png" alt="Локація 3"></div>
+            </div>
+            <div class="swiper-button-next location-next"></div>
+            <div class="swiper-button-prev location-prev"></div>
+          </div>
+          <a href="#popup_2" class="location__btn btn popup-link _anim-items _anim-no-hide">Вибрати локацію</a>
+        </div>
+      </section>
+      <section class="page__photostudio photostudio">
+        <h2 class="photostudio__title title _anim-items _anim-no-hide">Оформлення фотостудії</h2>
+        <div class="photostudio__container">
+          <div class="photostudio__body">
+            <div class="photostudio__item">
+              <div class="photostudio__video ">
+                <iframe src="https://www.youtube.com/embed/l9n-5OdwJuQ" title="YouTube video player" frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__services services">
+        <h2 class="services__title title _anim-items _anim-no-hide">Види послуг</h2>
+        <div class="services__container">
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services1.png" alt="Макбук"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services1.1.png" alt="Макбук"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services1.2.png" alt="Макбук"></div>
+              </div>
+            </div>
+
+
+
+            <p class="services__text">Фотосессія Лав Стори</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services2.png" alt="Фотосессия для подростков"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services2.1.png" alt="Фотосессия для подростков"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services2.2.png" alt="Фотосессия для подростков"></div>
+              </div>
+            </div>
+
+
+
+            <p class="services__text">Фотосессия для подростков</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services3.png" alt="Парная фотосессия"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services3.1.png" alt="Парная фотосессия"></div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Парная фотосессия</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services4.png" alt="Фотосессия для парней"></div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Фотосессия для парней</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img class="_big" src="img/services5.png"
+                    alt="Семейная фотосессия (дети +14)"></div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Семейная фотосессия (дети +14)</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img class="_big" src="img/services6.png" alt="Групповая фотосессия">
+                </div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Групповая фотосессия</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services7.png" alt="Фотосессия Лукбук"></div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Фотосессия Лукбук</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services8.png" alt="Фотосессия для девушек"></div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Фотосессия для девушек</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services9.png" alt="Фотосессия для беременных"></div>
+              </div>
+
+
+            </div>
+            <p class="services__text">Фотосессия для беременных</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services10.png" alt="Фотосессия с животными"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services10.1.png" alt="Фотосессия с животными"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services10.2.png" alt="Фотосессия с животными"></div>
+              </div>
+            </div>
+
+
+
+            <p class="services__text">Фотосессия с животными</p>
+          </a>
+          <a href="#" class="services__item item-services  _anim-items _anim-no-hide">
+            <div class="services__switch image-switch">
+
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services11.png" alt="Фотосессия «Деловой стиль»"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services11.1.png" alt="Фотосессия «Деловой стиль»"></div>
+              </div>
+              <div class="image-switch__item">
+                <div class="image-switch__img"><img src="img/services11.2.png" alt="Фотосессия «Деловой стиль»"></div>
+              </div>
+            </div>
+
+
+
+            <p class="services__text">Фотосессия «Деловой стиль»</p>
+          </a>
+        </div>
+      </section>
+      <section class="page__stagework stagework">
+        <div class="stagework__container">
+          <h2 class="stagework__title title _anim-items _anim-no-hide">Этапы работ</h2>
+          <div class="stagework__body">
+            <div class="stagework__item item-stagework">
+              <h3 class="item-stagework__title">Заявка</h3>
+              <p class="item-stagework__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                мягких. </p>
+              <div class="item-stagework__number">1</div>
+            </div>
+            <div class="stagework__item item-stagework">
+              <h3 class="item-stagework__title">Бронь</h3>
+              <p class="item-stagework__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                мягких. </p>
+              <div class="item-stagework__number">2</div>
+            </div>
+            <div class="stagework__item item-stagework">
+              <h3 class="item-stagework__title">Составление
+                Технического задания</h3>
+              <p class="item-stagework__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                мягких. </p>
+              <div class="item-stagework__number">3</div>
+            </div>
+            <div class="stagework__item item-stagework">
+              <h3 class="item-stagework__title">Съёмка</h3>
+              <p class="item-stagework__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                мягких. </p>
+              <div class="item-stagework__number">4</div>
+            </div>
+            <div class="stagework__item item-stagework">
+              <h3 class="item-stagework__title">Готовые фото</h3>
+              <p class="item-stagework__text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                мягких. </p>
+              <div class="item-stagework__number">5</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__photoideas photoideas">
+        <h2 class="photoideas__title title _anim-items _anim-no-hide">Фотостудия для любых идейных фотоссесий</h2>
+        <div class="photoideas__container">
+          <p class="photoideas__text _anim-items _anim-no-hide">
+            Воплотите мечту с нашей фотостудией и приобретите красивые, уникальные, качественные фотографии, выбрав один
+            из наших залов.
+            А их, -на секундочку, -аж семь штук.
+            Каждый наш зал оборудован интерьером и профессиональным оборудованием, и подойдет
+            для любой фотоссесии, а мы хотим рассказать вам о все подробнее.
+            <br><br>
+            Какие идеи можно воплотить?
+            <br><br>
+            • Фотоссесия Love Story
+            <br><br>
+            Мечтаете показать всему миру вашу историю создания любви или хранить снимки в памятном альбоме
+            <span class="dots" id="dots">...</span><span class="more" id="more">
+              то это
+              фотоссесия отлично подойдет вам. Расскажите вашу историю с любимым человеком в фотографиях в необычном
+              месте.
+              <br><br>
+              • Семейная фотоссесия
+              <br><br>
+              Семья — это самое главное в жизни любого человека. Хотите повесить фотографии в вашем уютном доме,
+              смотреть
+              на
+              них и испытывать прилив нежности, значит семейная фотоссесия в нашей фотостудии станет отличным вариантом.
+              <br><br>
+              • Фотоссесия для беременных девушек
+              <br><br>
+              Желаете сохранить воспоминания о прекрасном времени в жизни каждой женщины?
+              Наши локации помогут вам организовать и воссоздать
+              в фотографиях любовь матери и еще не родившегося ребенка.
+              <br><br>
+              • Фотоссесия «Деловой стиль».
+              <br><br>
+              Вы не из тех, кто любит яркие чувства, эмоции и считаете себя сдержанным. Вам нужны фотографии, где вы
+              раскроетесь как профессионал, произведете впечатление как деловой человек.
+              Эта фотоссесия станет вашим правильным решением.
+              <br><br>
+              • Фотоссесия для девушек и парней.
+              <br><br>
+              Хочешь стать кем-то другим? Или, наоборот, показать свое «я»? Фотоссесия для девушек или парней поможет
+              воплотить любые идеи.
+              <br><br>
+              Помимо вышеперечисленного есть и другие стили фотоссесий. Вы самостоятельно выбираете,
+              а наши фотозалы помогают вам и вдохновляют.
+              <br>
+              <br><br>
+              Кстати, о них…
+              <br>
+              Все семь фото локаций уникальные в своем роде. Мы пытались воссоздать непохожесть на другие фотостудии не
+              только в городе, но и во всей стране. Каждый зал отличается от других по дизайнерскому решению и
+              интерьеру.
+              И
+              каждый зал пропитан своим духом, стилем и видится
+              для каждого нашего посетителя по-разному.
+              Светлые помещения помогут получить более качественные, яркие фотоснимки. Трендовая мебель
+              и другие предметы интерьера можно двигать и активно использовать в фотосъемках. Локации подойдут для любых
+              людей и задач: блогеров и медийных личностей, обычных и счастливых семей, предпринимателей и подростков.
+              Что еще нужно знать о нас?
+              <br><br>
+              Оборудование. Неотъемлемая часть любой фотостудии и нередко владельцы фотостудий экономят на этой важной
+              части.
+              Мы используем все оборудование только от профессиональных продавцов, которые уже не один год предлагают
+              свои
+              товары на мировом рынке. Вы найдете все что нужно и необходимо
+              для работы фотографов, для создания образов и света. Ведь именно от оборудования часто зависит качество
+              получающихся фотоснимков.
+            </span>
+          </p>
+          <button class="photoideas__btn btns _anim-items _anim-no-hide" id="btn">Подробнее</button>
+        </div>
+      </section>
+      <section class="page__price price">
+        <h2 class="price__title title _anim-items _anim-no-hide">Стоимость фотосесии</h2>
+        <div class="price__container">
+          <div class="price__body _anim-items _anim-no-hide">
+            <article class="price__item item-price">
+              <h3 class="item-price__title">MINI</h3>
+              <div class="item-price__number">2500 ₽</div>
+              <div class="item-price__subtitle">/ 1 локация</div>
+              <ul class="item-price__list">
+                <li class="item-price__items">Длительность — 30 минут</li>
+                <li class="item-price__items">Исходники — До 100 штук</li>
+                <li class="item-price__items">Ретушь — 4 фото</li>
+                <li class="item-price__items">Аренда фотостудии — Бесплатно</li>
+                <li class="item-price__items">Любой образ</li>
+              </ul>
+              <h4 class="item-price__bottom-title">Дополнительные услуги</h4>
+              <div class="item-price__bottom-buttons">
+                <button class="item-price__bottom-button">Помощь
+                  в позировании</a>
+                  <button class="item-price__bottom-button">Визажист
+                    + 2000 ₽</button>
+                  <a href="#popup_3" class="item-price__bottom-button popup-link">Дополнительная ретушь фото — 1 шт. /
+                    250 ₽</a>
+              </div>
+              <a href="#popup" class="item-price__button btn popup-link">Забронировать</a>
+            </article>
+            <article class="price__item item-price">
+              <h3 class="item-price__title">STANDART</h3>
+              <div class="item-price__number">5000 ₽</div>
+              <div class="item-price__subtitle">/ 2 локация</div>
+              <ul class="item-price__list">
+                <li class="item-price__items">Длительность — 1 час 20 минут</li>
+                <li class="item-price__items">Исходники — До 200 штук</li>
+                <li class="item-price__items">Ретушь — 8 фото</li>
+                <li class="item-price__items">Аренда фотостудии — Бесплатно</li>
+                <li class="item-price__items">Любой образ</li>
+              </ul>
+              <h4 class="item-price__bottom-title">Дополнительные услуги</h4>
+              <div class="item-price__bottom-buttons">
+                <button class="item-price__bottom-button">Помощь
+                  в позировании</a>
+                  <button class="item-price__bottom-button">Визажист
+                    + 2000 ₽</button>
+                  <a href="#popup_3" class="item-price__bottom-button popup-link">Дополнительная ретушь фото — 1 шт. /
+                    250 ₽</a>
+              </div>
+              <a href="#popup" class="item-price__button btn popup-link">Забронировать</a>
+            </article>
+            <article class="price__item item-price">
+              <h3 class="item-price__title">MAXI</h3>
+              <div class="item-price__number">7990 ₽</div>
+              <div class="item-price__subtitle">/ Максимальное количество локаций</div>
+              <ul class="item-price__list">
+                <li class="item-price__items">Длительность — 4 часа</li>
+                <li class="item-price__items">Исходники — До 500 штук</li>
+                <li class="item-price__items">Ретушь — 50 фото</li>
+                <li class="item-price__items">Аренда фотостудии — Бесплатно</li>
+                <li class="item-price__items">Визажист — Make-Up, Укладка</li>
+                <li class="item-price__items">Предварительный подбор образов — До 8 образов</li>
+              </ul>
+              <h4 class="item-price__bottom-title">Дополнительные услуги</h4>
+              <div class="item-price__bottom-buttons">
+                <a href="#popup_3" class="item-price__bottom-button popup-link">Дополнительная ретушь фото — 1 шт. / 250
+                  ₽</a>
+              </div>
+              <a href="#popup" class="item-price__button btn popup-link">Забронировать</a>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section class="page__photoideas photoideas page__photoideas-light">
+        <h2 class="photoideas__title title _anim-items _anim-no-hide">Фотоискусство в тренде. Любая фотоссесия ваша
+          история
+        </h2>
+        <div class="photoideas__container">
+          <p class="photoideas__text _anim-items _anim-no-hide">
+            Мы искренни так считаем и готовы кричать эту фразу на весь мир. Фотографии давно перестали пылиться на
+            полках в семейных,
+            потрёпанных альбомах.
+            <br><br><br>
+            Хотите самовыразиться и не знаете как? Позвоните нам и закажите фотосъемку.
+            Хотите удивить и впечатлить? Мы вам поможем.
+            Не уверены? Посмотрите отзывы и проконсультируйтесь.
+            Боитесь фотографироваться? Наши локации помогут вам расслабиться и почувствовать себя как дома.
+            <br><br>
+            Доступные цены для всех и вежливость.
+            <br><br>
+            Повторим еще раз: мы работаем в первую очередь для клиентов, и аренда нашей фотостудии имеют цены
+            <span class="dots" id="dots">...</span><span class="more" id="more">
+              семи чашек
+              кофе.
+              Вы можете расплатится любым удобным для вас способом: наличным или безналичным расчетом. Все для вашего
+              удобства.
+              <br><br>
+              Вежливость тоже относиться к главным нашим качествам. У нас вы не найдете ужасного обращения, мы всегда
+              готовы ответить вам
+              и проконсультировать, помочь и стать вашими друзьями. Все наши работники улыбчивы и приветливы вам,
+              которые
+              не оставят вам плохого настроения.
+              <br><br>
+              В каждом городе есть хотя бы несколько фотостудий и часто поход туда, становиться чуть ли не традицией
+              семьи, пар или друзей. Тренд
+              на истории в фотографиях для социальных сетей, где мы проводим много времени, не угасал и не угаснет
+              никогда. Фотоссесия лав стори
+              или семейная привлекает внимание всех людей и, доказано, набирает больше всего одобрений со стороны людей
+              всего мира.
+              Для качественного исполнения вашей мечты стоит обращаться к профессионалу и выбирать интересные локации.
+              <br><br>
+              Наша фотостудия предлагает и то, и то. Профессиональный фотограф сможет сделать качественные, интересные
+              фотографии, помочь
+              вам воплотить вашу идею в жизнь в уютных залах фотостудии.
+              <br><br>
+              На ваш выбор у нас есть 7 фотозалов, каждый из которых прекрасен и индивидуален по-своему. В больших залах
+              отлично будет смотреться групповая фотосессия, а в залах меньше получиться интересная фотоссесия в деловом
+              стиле.
+              <br><br>
+              Мы работаем в первую очередь на качество, поэтому наши цены не завышенные и доступны всем желающим. У нас
+              есть различные и удобные способы оплаты для вас.
+            </span>
+          </p>
+          <button class="photoideas__btn btns _anim-items _anim-no-hide" id="btn">Подробнее</button>
+        </div>
+      </section>
+      <section class="page__certificate certificate">
+        <h2 class="certificate__title title _anim-items _anim-no-hide">Подарочный сертификат на фотосессию</h2>
+        <div class="certificate__container">
+          <div class="certificate__body">
+            <div class="certificate__block">
+              <p class="certificate__subtitle _anim-items _anim-no-hide">СЕРТИФИКАТ НА ФОТОСЕССИЮ</p>
+              <h3 class="certificate__title-block _anim-items _anim-no-hide">Это подарок,
+                который западает
+                в душу</h3>
+              <ul class="certificate__list _anim-items _anim-no-hide">
+                <li class="certificate__item">Креативное оформление</li>
+                <li class="certificate__item">Открытый календарь</li>
+                <li class="certificate__item">Всё включено</li>
+              </ul>
+            </div>
+            <div class="certificate__block">
+              <img src="img/certificate__latter.png" alt="" class="certificate__images _anim-items _anim-no-hide">
+              <p class="certificate__text _anim-items _anim-no-hide">Срок действия сертификата: 2 месяца
+                со дня приобретения.</p>
+              <a href="#popup" class="certificate__button btn popup-link _anim-items _anim-no-hide">Приобрести</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="page__reviews reviews">
+        <h2 class="reviews__title title _anim-items _anim-no-hide">Отзывы</h2>
+        <div class="reviews__container _anim-items _anim-no-hide">
+          <div class="swiper mySwiper3 reviews-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide reviews__slide">
+                <img class="swiper-img reviews__img " src="img/reviews__slide2.png" alt="Сергей">
+                <div class="reviews__slide-name">Сергей</div>
+                <p class="reviews__slide-text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                  мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</p>
+                <a href="" class="reviews__slide-more">Показать ещё</a>
+              </div>
+              <div class="swiper-slide reviews__slide">
+                <img class="swiper-img reviews__img " src="img/reviews__slide3.png" alt="Андрей">
+                <div class="reviews__slide-name">Андрей</div>
+                <p class="reviews__slide-text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                  мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</p>
+                <a href="" class="reviews__slide-more">Показать ещё</a>
+              </div>
+              <div class="swiper-slide reviews__slide">
+                <img class="swiper-img reviews__img " src="img/reviews__slide1.png" alt="Мария">
+                <div class="reviews__slide-name">Мария</div>
+                <p class="reviews__slide-text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                  мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</p>
+                <a href="" class="reviews__slide-more">Показать ещё</a>
+              </div>
+              <div class="swiper-slide reviews__slide">
+                <img class="swiper-img reviews__img " src="img/reviews__slide1.png" alt="Мария">
+                <div class="reviews__slide-name">Мария</div>
+                <p class="reviews__slide-text">Съешь еще этих мягких французских булок, да выпей чаю. Съешь еще этих
+                  мягких французских булок, да выпей чаю. Съешь еще этих мягких французских булок, да выпей чаю.</p>
+                <a href="" class="reviews__slide-more">Показать ещё</a>
+              </div>
+            </div>
+            <a href="#popup_4" class="reviews__btn btn popup-link">добавить ещё</a>
+            <div class="swiper-button-next location-next"></div>
+            <div class="swiper-button-prev location-prev"></div>
+          </div>
+        </div>
+
+
+      </section>
+      <section class="page__map map">
+        <div class="map__container">
+          <div class="map__block"><iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.48246591914!2d23.942196118871976!3d49.832778677109886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0L7Qsiwg0JvRjNCy0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1sru!2sua!4v1662870310822!5m2!1sru!2sua"
+              allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="map__form form-map">
+            <h2 class="form-map__title">Форма обратной связи</h2>
+            <form action="" class="form-map__form">
+              <div class="form-map__block">
+                <label class="form-map__label" for="">
+                  <p>Имя</p>
+                  <input class="form-map__input" type="text" placeholder="Введите ваше имя">
+                </label>
+                <label class="form-map__label" for="">
+                  <p>Е-mail</p>
+                  <input class="form-map__input" type="email" placeholder="Введите ваш Е-mail">
+                </label>
+                <label class="form-map__label" for="">
+                  <p>Телефон</p>
+                  <input class="form-map__input" type="number" placeholder="Введите ваш телефон">
+                </label>
+              </div>
+              <button class="form-map__button btn">Отправить</button>
+              <p class="form-map__text">
+                Нажимая кнопку «Отправить», вы даете согласие
+                на обработку персональных данных и соглашаетесь
+                с <a href="">политикой конфиденциальности</a>
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+  </div>
+  </main>
+  <footer class="footer">
+  <div class="footer__container">
+    <div class="footer__top">
+      <img src="img/logo.png" alt="Логотип" class="footer__logo">
+      <nav class="footer__nav">
+        <ul class="footer__ul">
+          <li class="footer__item"><a data-goto=".main" class="footer__link goto" href="">Портфолио</a></li>
+          <li class="footer__item"><a data-goto=".services" class="footer__link goto" href="">Виды работ</a></li>
+          <li class="footer__item"><a data-goto=".stagework" class="footer__link goto" href="">О фотостудии</a></li>
+          <li class="footer__item"><a data-goto=".price" class="footer__link goto" href="">Услуги и цены</a></li>
+          <li class="footer__item"><a data-goto=".reviews" class="footer__link goto" href="">Отзывы</a></li>
+          <li class="footer__item"><a data-goto=".map" class="footer__link goto" href="">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+    <hr style="height: 2px; background:#B1B1B1;">
+    <div class="footer__social">
+      <span class="footer__link">Наши социцальные сети:</span>
+      <div class="footer__social-icon">
+
+        <a href="" class="footer__social-item">
+          <svg width="32" height="31" viewBox="0 0 32 31" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M30.5026 5.34545C30.0985 4.32727 29.5657 3.46364 28.6932 2.6C27.8206 1.73636 26.9481 1.20909 25.9194 0.809091C24.9274 0.427273 23.7885 0.172727 22.1169 0.0909091C20.4453 0.0181818 19.9126 0 15.66 0C11.4075 0 10.8748 0.0181818 9.20313 0.0909091C7.54069 0.172727 6.40178 0.427273 5.40064 0.818182C4.37195 1.21818 3.49939 1.74545 2.62684 2.60909C1.75429 3.47273 1.22157 4.33636 0.817444 5.35455C0.431684 6.33636 0.17451 7.46364 0.0918476 9.10909C0.0183695 10.7636 0 11.2909 0 15.5C0 19.7091 0.0183695 20.2364 0.0918476 21.8909C0.17451 23.5455 0.431684 24.6727 0.826628 25.6545C1.23076 26.6727 1.76347 27.5364 2.63603 28.4C3.50858 29.2636 4.38113 29.7909 5.40982 30.1909C6.40178 30.5727 7.54069 30.8364 9.21231 30.9091C10.8839 30.9818 11.4167 31 15.6692 31C19.9217 31 20.4545 30.9818 22.1261 30.9091C23.7885 30.8364 24.9274 30.5727 25.9286 30.1909C26.9573 29.7909 27.8298 29.2636 28.7024 28.4C29.5749 27.5364 30.1076 26.6727 30.5118 25.6545C30.8975 24.6727 31.1639 23.5455 31.2374 21.8909C31.3108 20.2364 31.3292 19.7091 31.3292 15.5C31.3292 11.2909 31.3108 10.7636 31.2374 9.10909C31.1547 7.46364 30.8883 6.33636 30.5026 5.34545ZM15.66 23.4636C11.2146 23.4636 7.61417 19.9 7.61417 15.5C7.61417 11.1 11.2146 7.53636 15.66 7.53636C20.1054 7.53636 23.7059 11.1 23.7059 15.5C23.7059 19.9 20.1054 23.4636 15.66 23.4636ZM24.0273 9.09091C22.9895 9.09091 22.1445 8.25455 22.1445 7.22727C22.1445 6.2 22.9895 5.36364 24.0273 5.36364C25.0652 5.36364 25.9102 6.2 25.9102 7.22727C25.901 8.25455 25.0652 9.09091 24.0273 9.09091ZM20.8861 15.5C20.8861 18.3545 18.5532 20.6636 15.6692 20.6636C12.7852 20.6636 10.4523 18.3545 10.4523 15.5C10.4523 12.6455 12.7852 10.3364 15.6692 10.3364C18.544 10.3364 20.8861 12.6455 20.8861 15.5Z" />
+          </svg>
+        </a>
+        <a href="" class="footer__social-item">
+          <svg width="23" height="31" viewBox="0 0 23 31" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M14.7834 8.16901V11.8004H21.8584L20.7271 17.4009H14.7834V31H6.81054V17.4009H0.328125V11.8004H6.81054V7.53538C6.81054 2.67758 10.6174 0 16.4534 0C19.2457 0 22.1636 0.381539 22.1636 0.381539V5.14396H18.9404C15.771 5.14396 14.7834 6.63605 14.7834 8.16901Z" />
+          </svg>
+
+        </a>
+        <a href="" class="footer__social-item">
+          <svg width="32" height="29" viewBox="0 0 32 29" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M27.8058 5.1851C29.11 5.01446 30.3486 4.65309 31.4933 4.10102C30.6301 5.47619 29.5417 6.69075 28.2844 7.66441C28.2937 7.95551 28.3031 8.25664 28.3031 8.55778C28.3031 17.6419 21.8384 28.1213 10.016 28.1213C6.38487 28.1213 3.00705 26.9871 0.164062 25.0297C0.670734 25.0899 1.17741 25.12 1.69346 25.12C4.70535 25.12 7.47328 24.0159 9.67824 22.179C6.86339 22.1188 4.48954 20.1313 3.67324 17.401C4.06732 17.4813 4.47078 17.5215 4.88362 17.5215C5.47474 17.5215 6.03771 17.4412 6.58191 17.2806C3.64509 16.6482 1.42136 13.8677 1.42136 10.5352C1.42136 10.5051 1.42136 10.475 1.42136 10.4449C2.28458 10.9568 3.27916 11.268 4.33003 11.3081C2.6036 10.0735 1.46828 7.96555 1.46828 5.58661C1.46828 4.33189 1.78729 3.14744 2.34088 2.13362C5.51227 6.29928 10.2506 9.02955 15.5894 9.32064C15.4768 8.81875 15.4205 8.29679 15.4205 7.75476C15.4205 3.96049 18.301 0.878906 21.8477 0.878906C23.6962 0.878906 25.3663 1.71204 26.5392 3.04706C28.0029 2.73589 29.3821 2.16374 30.6207 1.38079C30.1515 2.98683 29.1382 4.33189 27.8058 5.1851Z" />
+          </svg>
+
+        </a>
+        <a href="" class="footer__social-item">
+          <svg width="34" height="27" viewBox="0 0 34 27" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M33.7065 2.53874C33.6236 3.63887 32.9398 7.48453 32.2663 11.6363L30.1422 23.9578C30.1422 23.9578 29.9764 25.7658 28.5258 26.0719C27.0856 26.3876 24.7024 24.9718 24.2776 24.6561C23.9357 24.417 17.9053 20.887 15.6984 19.1651C15.1078 18.6963 14.4239 17.7492 15.7813 16.6587C18.8379 14.0662 22.4955 10.8519 24.7024 8.81426C25.7179 7.87675 26.7436 5.67649 22.4955 8.3455L10.5176 15.7977C10.5176 15.7977 9.1603 16.5821 6.61139 15.8742C4.06248 15.1663 1.08875 14.2288 1.08875 14.2288C1.08875 14.2288 -0.95245 13.0522 2.52899 11.799L22.3297 4.27024C24.288 3.4858 30.9089 0.979418 30.9089 0.979418C30.9089 0.979418 33.9656 -0.120707 33.7065 2.53874Z" />
+          </svg>
+
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+  <div id="popup" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a class="popup__close close-popup"></a>
+      <div class="popup__block">
+        <img src="img/popup-image.jpg" alt="#">
+        <div class="popup__item">
+          <h2 class="popup__title ">Форма обратной связи</h2>
+          <form class="popup__form form" action="#">
+            <div class="form__block">
+              <label class="popup__label" for="">
+                <p>Имя</p>
+                <input class="popup__input" type="text" placeholder="Введите ваше имя">
+              </label>
+              <label class="popup__label" for="">
+                <p>Е-mail</p>
+                <input class="popup__input" type="email" placeholder="Введите ваш Е-mail">
+              </label>
+              <label class="popup__label" for="">
+                <p>Телефон</p>
+                <input class="popup__input" type="number" placeholder="Введите ваш телефон">
+              </label>
+
+
+            </div>
+            <div class="popup__btn ">
+              <button class="popup__btn-button btn">Отправить</button>
+            </div>
+            <p class="popup__text">
+              Нажимая кнопку «Отправить», вы даете согласие
+              на обработку персональных данных и соглашаетесь
+              с <a href="">политикой конфиденциальности</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="popup_2" class="popup">
+  <div class="popup__body">
+    <div class="popup__content">
+      <a class="popup__close close-popup"></a>
+      <div class="popup__block">
+        <img src="img/location__images.png" alt="#">
+        <div class="popup__item">
+          <h2 class="popup__title "> Форма вибору локації</h2>
+          <form class="popup__form form" action="#">
+            <div class="form__block">
+              <label class="popup__label" for="">
+                <p>Имя</p>
+                <input class="popup__input" type="text" placeholder="Введите ваше имя">
+              </label>
+              <label class="popup__label" for="">
+                <p>Е-mail</p>
+                <input class="popup__input" type="email" placeholder="Введите ваш Е-mail">
+              </label>
+              <label class="popup__label" for="">
+                <p>Телефон</p>
+                <input class="popup__input" type="number" placeholder="Введите ваш телефон">
+              </label>
+
+
+            </div>
+            <div class="popup__btn ">
+              <button class="popup__btn-button btn">Отправить</button>
+            </div>
+            <p class="popup__text">
+              Нажимая кнопку «Отправить», вы даете согласие
+              на обработку персональных данных и соглашаетесь
+              с <a href="">политикой конфиденциальности</a>
+            </p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="popup_3" class="popup">
+  <div class="popup__body">
+    <div class="popup__content popup__content-3">
+      <a class="popup__close close-popup"></a>
+      <div class="popup__block popup__block-3 ">
+        <div class="popup__item">
+          <h2 class="popup__title ">Дополнительная ретушь фото</h2>
+          <form class="popup__form form" action="#">
+            <div class="form__block">
+              <label class="popup__label" for="">
+                <p>Количество</p>
+                <input class="popup__input" type="number" placeholder="Введите количество фото для ретуши">
+              </label>
+
+
+            </div>
+            <div class="popup__btn ">
+              <button class="popup__btn-button btn">Сохранить</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="popup_4" class="popup ">
+  <div class=" popup__body popup__body-4">
+    <div class="popup__content popup__content-4">
+      <a class="popup__close close-popup"></a>
+      <div class="popup__block">
+        <div class="popup__item">
+          <h2 class="popup__title ">Оставьте отзыв о том,
+            как прошла ваша фотосессия</h2>
+          <form class="popup__form form" action="#">
+            <div class="form__block">
+              <label class="popup__label" for="">
+                <p>Имя</p>
+                <input class="popup__input" type="text" placeholder="Введите ваше имя">
+              </label>
+              <label class="popup__label" for="">
+                <p>Е-mail</p>
+                <input class="popup__input" type="email" placeholder="Введите ваш Е-mail">
+              </label>
+              <label class="popup__label" for="">
+                <p>Отзыв</p>
+                <textarea class="popup__input " id="" cols="30" rows="10" placeholder="Введите ваш oтзыв"></textarea>
+              </label>
+
+            </div>
+            <div class="popup__btn popup__btn-4 ">
+              <button class="popup__btn-button btn ">Отправить</button>
+            </div>
+            <p class="popup__text popup__text-4 ">
+              Нажимая кнопку «Отправить», вы даете согласие
+              на обработку персональных данных и соглашаетесь
+              с <a href="">политикой конфиденциальности</a>
+            </p>
+          </form>
+        </div>
+        <img class="popup_4" src="img/reviews.png" alt="#">
+      </div>
+    </div>
+  </div>
+</div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>
